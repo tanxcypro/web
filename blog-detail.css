@@ -1,0 +1,78 @@
+*{
+    background-color:rgb(179, 178, 178);
+}
+.container{
+    margin: 100px;
+   
+}
+.blog{
+    display: flex;
+    flex-direction: row;
+}
+.image {
+    flex: 3;
+
+}
+.icon{
+    flex: 1;
+    display: flex;
+    padding-left: 50px;
+    flex-direction: column;
+}
+.image img{
+    width: 100%;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+.time .image1,.time .image2{
+    display: flex;
+    flex-direction: row;
+    
+}
+.image1 img{
+   margin: auto 10px;
+   
+}
+.image2 img{
+    
+    margin: auto 10px;
+    
+ }
+.image1 p{
+    flex: 50%;
+padding: 2px;
+}
+.image2 p{
+flex: 50%;
+padding: 2px;
+}
+.time img,.images img{
+
+    width: 20px;
+    height: 20px;
+    
+}
+.icon1,.icon2,.icon3,.icon4{
+    display: flex;
+    flex-direction: row;
+}
+.icon1 img,.icon2 img,.icon3 img,.icon4 img{
+    margin: auto 10px;
+}
+.icon1 p,.icon2 p,.icon3 p,.icon4 p{
+    flex: 50%;
+padding: 2px;
+}
+.i{
+ display: flex;
+flex-direction: row;
+gap: 50px;
+}
+.ii{
+  flex: 1;  
+}
+iii{
+    flex: 2;
+}
